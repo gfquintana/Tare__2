@@ -29,6 +29,8 @@ public class FuncionesUsuario {
 return impuestos;
 }
     
-  
+   public void agregarSaldo(int saldo){
+        u.getSaldo()+=saldo;
+    }
     
 }
